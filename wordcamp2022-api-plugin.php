@@ -44,4 +44,6 @@ if ( ! defined( 'WORDCAMP_API_PLUGIN_BASENAME' ) ) {
 }
 
 
-require_once SKANNWOOINT_PLUGIN_DIR . 'includes/webhook.php';
+require_once WORDCAMP_API_PLUGIN_PATH . 'includes/webhook.php';
+require_once WORDCAMP_API_PLUGIN_PATH . 'includes/apis.php';
+require_once WORDCAMP_API_PLUGIN_PATH . 'includes/endpoints.php';

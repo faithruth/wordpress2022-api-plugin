@@ -1,6 +1,6 @@
 <?php
 
-add_acrion( 'save_post', 'send_data_to_webhook', 10, 3 );
+add_action( 'save_post', 'send_data_to_webhook', 10, 3 );
 
 function send_data_to_webhook( $post_id, $post, $update ) {
 
